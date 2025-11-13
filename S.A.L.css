@@ -12,6 +12,7 @@ header {
     gap: 20px;}
 
 body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
 }
 
@@ -66,16 +67,63 @@ h1 {
 
 #button-main {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: white;
-        font-size: 40px;
-        padding: 10px;
-        border: 1px;
-        border-radius: 5px;
-        background-color: rgba(226, 223, 226, 0.37);
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    border: 1px;
+    border-radius: 5px;
+    background-color: rgba(226, 223, 226, 0.37);
 }
 
 #button-main:hover {
     background-color: rgba(142, 17, 180, 0.534);
+}
+
+.contenedor {
+    background: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.452));
+    display: flex;
+    flex-wrap: wrap;        
+    justify-content: center; 
+    gap: 50px; 
+    padding: 30px;             
+}
+
+.tarjeta {
+    width: 300px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .contenedor {
+    flex-direction: column; 
+    align-items: center;}
+  
+    .tarjeta {
+    width: 95%;}
+}
+
+.img-productos {
+    width: 100%;
+}
+
+.button-productos {
+    font-size: 18px;
+    width: 110px;
+    padding: 10px;
+    background-color: rgba(148, 12, 175, 0.521);
+    border: none;
+    border-radius: 10px;
+}
+
+.button-productos:hover {
+    background-color: rgba(148, 12, 175, 0.342);
+}
+
+.b-button {
+    font-size: 30px;
 }
 
 
