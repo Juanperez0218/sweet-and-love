@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+/*----------header----------*/
+
 header {
     display: flex;
     justify-content: space-between;
@@ -43,6 +45,8 @@ body {
     }
 }
 
+/*---------main-----------*/
+
 #hero {
     margin-bottom: 0px;
     display: flex;
@@ -81,6 +85,8 @@ h1 {
 #button-main:hover {
     background-color: rgba(142, 17, 180, 0.534);
 }
+
+/*---------Productos-----------*/
 
 .contenedor {
     background: linear-gradient(rgb(73, 73, 73), #55555573);
@@ -155,6 +161,8 @@ h2 {
     text-shadow: 5px 5px 5px rgb(114, 113, 113);
 }
 
+/*---------Nosotros-----------*/
+
 #content-nosotros1{
     font-size: auto;
     height: 60%;
@@ -196,6 +204,8 @@ p {
         margin-bottom: 10%;
     }
 }
+
+/* ----------Footer---------- */
 
 footer {
   background: #222;
